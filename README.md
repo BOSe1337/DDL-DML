@@ -2,18 +2,27 @@
 
 ### Задание 1
 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
+
 1.2. Создайте учётную запись sys_temp.
+
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+
 ![alt text](https://github.com/BOSe1337/DDL-DML/blob/main/2.jpg)
+
 1.4. Дайте все права для пользователя sys_temp. 
+
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
 ![alt text](https://github.com/BOSe1337/DDL-DML/blob/main/3.jpg)
+
 1.6. Переподключитесь к базе данных от имени sys_temp.
+
 Для смены типа аутентификации с sha2 используйте запрос: 
 ```sql
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 ![alt text](https://github.com/BOSe1337/DDL-DML/blob/main/4.jpg)
+
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
 1.7. Восстановите дамп в базу данных.
