@@ -14,7 +14,7 @@
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
-![alt text](https://github.com/BOSe1337/DDL-DML/blob/main/3.jpg)
+![alt text](https://github.com/BOSe1337/DDL-DML/blob/main/33.jpg)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
